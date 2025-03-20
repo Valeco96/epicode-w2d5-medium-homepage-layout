@@ -1,0 +1,28 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: 400;
+}
+
+nav {
+  border: 2px solid black;
+}
+
+main {
+  border: 2px solid lightcoral;
+}
+
+header {
+  border: 2px solid red;
+}
+
+#left-section {
+  border: 2px solid green;
+}
+
+#right-section {
+  border: 2px solid yellow;
+}
