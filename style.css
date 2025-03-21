@@ -2,6 +2,10 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+span {
+  font-weight: bold;
+}
+
 nav {
   border: 2px solid black;
   display: flex;
@@ -54,6 +58,18 @@ main li.active:hover {
 #left-section {
   border: 2px solid green;
   display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+h2 {
+  font-weight: 700;
+  font-family: "Rubik";
+}
+
+h4 {
+  font-weight: normal;
+  margin: 0;
 }
 
 .footer-options {
