@@ -31,7 +31,7 @@ nav h1 {
 }
 
 .icons {
-  padding: 20px;
+  padding: 20px 15px;
 }
 
 header ul {
@@ -74,7 +74,7 @@ main ul {
 }
 
 #left-section {
-  /*border: 2px solid green;*/
+  border: 2px solid green;
   border-right: 1px solid gray;
 }
 
@@ -95,6 +95,15 @@ h4 {
   font-weight: normal;
   margin: 0;
   opacity: 0.7;
+}
+
+.section-image {
+  width: 50%;
+}
+
+.react-image {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .footer-options {
