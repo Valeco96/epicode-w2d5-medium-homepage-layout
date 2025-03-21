@@ -2,11 +2,6 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h1 {
-  font-size: 120px;
-  font-weight: 400;
-}
-
 nav {
   border: 2px solid black;
   display: flex;
@@ -19,7 +14,7 @@ nav {
   margin-right: 5px;
 }
 
-nav h2 {
+nav h1 {
   font-size: 40px;
   margin: 12px 40px;
 }
@@ -50,6 +45,10 @@ main ul {
 
 main li {
   padding: 10px;
+}
+
+main li.active:hover {
+  font-weight: bold;
 }
 
 #left-section {
