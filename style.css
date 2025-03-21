@@ -53,6 +53,13 @@ main li.active:hover {
 
 #left-section {
   border: 2px solid green;
+  display: flex;
+}
+
+.footer-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #right-section {
