@@ -170,3 +170,19 @@ h2 {
   padding: 10px;
   margin-top: 20px;
 }
+
+#second-block {
+  padding: 40px 60px;
+}
+
+.second-block-topics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.second-block-topics p {
+  margin: 16px 10px;
+  padding: 10px 20px;
+  background-color: rgb(199, 199, 199);
+  border-radius: 30px;
+}
