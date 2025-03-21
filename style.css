@@ -34,10 +34,6 @@ nav h1 {
   padding: 20px;
 }
 
-main {
-  margin-top: 0;
-}
-
 header ul {
   list-style: none;
   padding: 0;
@@ -58,9 +54,19 @@ header li.active {
   font-weight: bold;
   border-bottom: 2px solid black;
 }
+main {
+  margin-top: 0;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
 
 .main-blocks {
-  /*border: 2px solid lightcoral;*/
+  border: 2px solid lightcoral;
   margin: 50px;
   display: flex;
   justify-content: space-between;
@@ -82,11 +88,13 @@ header li.active {
 h2 {
   font-weight: 700;
   font-family: "Rubik";
+  margin-bottom: 5px;
 }
 
 h4 {
   font-weight: normal;
   margin: 0;
+  opacity: 0.7;
 }
 
 .footer-options {
@@ -100,7 +108,7 @@ h4 {
 }
 
 .footer-options li {
-  padding: 0;
+  padding: 5px 5px;
 }
 
 #right-section {
