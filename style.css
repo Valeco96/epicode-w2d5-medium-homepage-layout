@@ -19,19 +19,41 @@ nav {
   margin-right: 5px;
 }
 
-nav h1 {
-  font-size: 40px;
-  margin: 12px 40px;
+nav img {
+  width: 200px;
+  height: auto;
+  margin-left: 60px;
 }
 
 #nav-elements {
   display: flex;
   justify-content: space-evenly;
-  margin-right: 15px;
+  margin-right: 70px;
+}
+
+#icon {
+  margin: 0;
 }
 
 .icons {
-  padding: 20px 15px;
+  padding: 14px 15px;
+  margin: 0 10px;
+}
+
+#nav-elements button {
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 14px;
+  border-radius: 40px;
+}
+
+#nav-elements a {
+  background-color: rgb(255, 140, 0);
+  font-size: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 12px 17px;
+  color: black;
 }
 
 header ul {
