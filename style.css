@@ -66,7 +66,7 @@ main ul {
 }
 
 .main-blocks {
-  border: 2px solid lightcoral;
+  /*border: 2px solid lightcoral;*/
   margin: 50px;
   display: flex;
   justify-content: space-between;
@@ -74,8 +74,9 @@ main ul {
 }
 
 #left-section {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   border-right: 1px solid gray;
+  width: 70%;
 }
 
 .block {
@@ -91,7 +92,7 @@ h2 {
   margin-bottom: 5px;
 }
 
-h4 {
+.block-content h4 {
   font-weight: normal;
   margin: 0;
   opacity: 0.7;
@@ -122,4 +123,46 @@ h4 {
 
 #right-section {
   border: 2px solid yellow;
+  width: 30%;
+}
+
+#first-block {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#first-block .fa-brands {
+  padding: 15px;
+  font-size: 30px;
+  color: rgb(66, 160, 191);
+}
+
+#first-block h4 {
+  color: black;
+  padding: 20px 20px;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#first-block button {
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 18px;
+  border-radius: 40px;
+  margin: 0 100px;
+}
+
+#first-block button .fa-brands {
+  padding: 10px 18px;
+  font-size: 22px;
+}
+
+#first-block a {
+  opacity: 0.9;
+  color: gray;
+  padding: 10px;
+  margin-top: 20px;
 }
