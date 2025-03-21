@@ -7,7 +7,7 @@ span {
 }
 
 nav {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +53,7 @@ main li.active:hover {
 }
 
 .main-blocks {
-  border: 2px solid lightcoral;
+  /*border: 2px solid lightcoral;*/
   margin: 50px;
   display: flex;
   justify-content: space-between;
@@ -61,7 +61,11 @@ main li.active:hover {
 }
 
 #left-section {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
+}
+
+.block {
+  /*border: 3px solid red;*/
   display: flex;
   justify-content: space-between;
   padding: 40px;
