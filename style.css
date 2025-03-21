@@ -9,14 +9,47 @@ h1 {
 
 nav {
   border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-circle {
+  font-size: 34px;
+  margin-right: 5px;
+}
+
+nav h2 {
+  font-size: 40px;
+  margin: 12px 40px;
+}
+
+#nav-elements {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 15px;
+}
+
+.icons {
+  padding: 20px;
 }
 
 main {
   border: 2px solid lightcoral;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-header {
-  border: 2px solid red;
+main ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+main li {
+  padding: 10px;
 }
 
 #left-section {
