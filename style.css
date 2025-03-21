@@ -11,7 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 55px;
+  margin-bottom: 20px;
 }
 
 .fa-circle {
@@ -34,7 +34,11 @@ nav h1 {
   padding: 20px;
 }
 
-main ul {
+main {
+  margin-top: 0;
+}
+
+header ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -42,14 +46,17 @@ main ul {
   margin-top: 50px;
   margin-left: 77px;
   margin-bottom: 5px;
+  margin-right: 32%;
+  border-bottom: 1px solid gray;
 }
 
-main li {
+header li {
   padding: 10px;
 }
 
-main li.active:hover {
+header li.active {
   font-weight: bold;
+  border-bottom: 2px solid black;
 }
 
 .main-blocks {
@@ -62,6 +69,7 @@ main li.active:hover {
 
 #left-section {
   /*border: 2px solid green;*/
+  border-right: 1px solid gray;
 }
 
 .block {
