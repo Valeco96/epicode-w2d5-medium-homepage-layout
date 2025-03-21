@@ -94,6 +94,7 @@ h2 {
 
 .block-content {
   margin-right: 20px;
+  width: 80%;
 }
 
 .block-content h4 {
@@ -107,7 +108,7 @@ h2 {
 }
 
 .react-image {
-  width: 100%;
+  width: 90%;
   border-radius: 5px;
 }
 
@@ -126,7 +127,7 @@ h2 {
 }
 
 #right-section {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 30%;
 }
 
