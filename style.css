@@ -11,6 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 55px;
 }
 
 .fa-circle {
@@ -33,18 +34,14 @@ nav h1 {
   padding: 20px;
 }
 
-main {
-  border: 2px solid lightcoral;
-  margin: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-
 main ul {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: flex-start;
+  margin-top: 50px;
+  margin-left: 77px;
+  margin-bottom: 5px;
 }
 
 main li {
@@ -53,6 +50,14 @@ main li {
 
 main li.active:hover {
   font-weight: bold;
+}
+
+.main-blocks {
+  border: 2px solid lightcoral;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
 }
 
 #left-section {
@@ -76,6 +81,14 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-options ul {
+  margin: 0;
+}
+
+.footer-options li {
+  padding: 0;
 }
 
 #right-section {
