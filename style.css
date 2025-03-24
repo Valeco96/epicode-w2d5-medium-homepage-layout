@@ -72,7 +72,7 @@ header ul {
   margin-left: 77px;
   margin-bottom: 5px;
   margin-right: 32%;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(207, 207, 207);
 }
 
 header li {
@@ -104,7 +104,7 @@ main ul {
 
 #left-section {
   /*border: 2px solid green;*/
-  border-right: 1px solid gray;
+  border-right: 1px solid rgb(207, 207, 207);
   width: 70%;
 }
 
@@ -178,14 +178,14 @@ h2 {
   color: black;
   padding: 20px 20px;
   font-weight: normal;
-  font-size: 20px;
-  margin: 10px 0;
+  font-size: 18px;
+  margin: 0;
 }
 
 #first-block button {
   background-color: white;
   border: 1px solid gray;
-  font-size: 18px;
+  font-size: 14px;
   border-radius: 40px;
   margin: 0 100px;
 }
