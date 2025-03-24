@@ -1,5 +1,7 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
 }
 
 span {
@@ -12,6 +14,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  background-color: #f3f4f4;
 }
 
 .fa-circle {
@@ -56,6 +59,10 @@ nav img {
   color: black;
 }
 
+header {
+  width: 94%;
+}
+
 header ul {
   list-style: none;
   padding: 0;
@@ -98,7 +105,7 @@ main ul {
 #left-section {
   /*border: 2px solid green;*/
   border-right: 1px solid gray;
-  width: 70%;
+  width: 65%;
 }
 
 .block {
@@ -150,7 +157,7 @@ h2 {
 
 #right-section {
   /* border: 2px solid yellow; */
-  width: 30%;
+  width: 35%;
 }
 
 #first-block {
@@ -195,7 +202,7 @@ h2 {
 }
 
 #second-block {
-  padding: 40px 60px;
+  padding: 25px 60px;
 }
 
 .second-block-topics {
@@ -211,13 +218,19 @@ h2 {
 }
 
 #third-block {
-  padding: 40px 60px;
+  padding: 25px 60px;
 }
 
 .profiles {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.profiles img {
+  width: 75px;
+  height: auto;
+  margin-right: 18px;
 }
 
 .profiles h2 {
@@ -243,8 +256,53 @@ h2 {
   text-decoration: none;
 }
 
+#fourth-block h3 {
+  padding: 10px 60px;
+  margin-bottom: 0;
+}
+
+.block-fourth-block {
+  margin-top: 0;
+  padding: 10px 60px;
+}
+
+#fifth-block {
+  padding: 10px 60px;
+}
+
+.extra-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+#extra-pic {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.first-line {
+  display: flex;
+  align-items: center;
+}
+
+.extra-content h3 {
+  margin: 8px;
+}
+
+span .bottom-line {
+  padding: 5px;
+}
+
+.bottom-line p {
+  color: rgb(26, 139, 26);
+}
+
 .footer {
   margin-bottom: 0;
   margin-top: 325px;
   padding: 40px 60px;
+  opacity: 0.5;
+  color: rgb(29, 24, 24);
 }
